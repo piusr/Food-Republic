@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Food Republic</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list">
+        
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1>Food Republic </h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="Section 1" >
+  
+      <div class="landing__container">
+        <label for="identifier-1">  <h2>Welcome</h2></label>
+      <div>
+        <img src="img/food-plate.jpg"  class="circle" alt="">
+        <p>Welcome to Food Republic, We offer tasty meals prepared under strict hygienic conditions. Morbi fermentum metus faucibus lectus pharetra dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie semper in tellus. Sed congue et odio sed euismod.</p>
+
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+      </div>
+      </div>
+    
+    </section>
+    <section id="section2" data-nav="Section 2">
+      <div class="landing__container">
+        <label for="identifier-2"> <h2>About us</h2></label>
+        <div>
+        <img src="img/inter-dish.jpg" class="img" alt="">
+        <p>Food Republic is the number one food vendor in Africa. Delivering foods to your door step within the hour any where you are in Africa. Backed with over 7years of excellent service delivery, Food Republic has become a house hold name. A name you can trust for tasty meals.  </p>
+
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+       </div>
+      </div>
+
+      <img src="img/back-to-top.png" id="btnTop" alt="" class="btn-top">
+    </section>
+    <section id="section3" data-nav="Section 3" >
+      
+      <div class="landing__container">
+        <label for="identifier-3"> <h2>Our Team</h2></label>
+       
+        <div class="row centre-cards">
+          <p>
+            Excellent cooks and cheffs at Food Rebulic. A team of highly experienced cheffs with over 30years experienced combined.
+          </p>
+          <div class="column">
+            <div class="card">
+              <img class="img" src="img/team-1.jpg" alt="">
+              <p>John Doe</p>
+              <p>C.E.O</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <img class="img" src="img/team-2.jpg" alt="">
+              <p>Jessica Doe</p>
+              <p>Creative Director</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <img class="img" src="img/team-3.jpg" alt="">
+              <p>Jay Bullok</p>
+              <p>Consultant</p>
+            </div>
+          </div>
+         
+        </div> 
+      </div>
+    </section>
+    <section id="section4" data-nav="Section 4" >
+      <div class="landing__container">
+        <label for="identifier-4">  <h2>Contact Us</h2></label>
+        <div>
+        <p>Contact us through any of the bellow.</p>
+
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+      </div>
+      <img src="img/back-to-top.png" id="btnTop" alt="" class="btn-top">
+    </section>
+  </div>
+  </main>
+  <footer class="page__footer">
+    <p id="date">&copy Udacity</p>
+  </footer>
+<script src="js/app.js"></script>
+</body>
+</html>
