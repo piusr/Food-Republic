@@ -222,38 +222,3 @@ createLinks(linksObject);
     }
     getYear();
 
-
-        /**
-         * **************************
-         * 
-         * @description Adding Class to section on scroll
-         * 
-         * *************************
-         */
-
-    //  function scrollSection(){
-        // //We get all the sections of our website
-        // const secs = document.querySelectorAll("section");
-    
-        // //We loop through each section.
-        // secs.forEach( sec => {
-           
-        //     //We attach event listener to the window so that on scroll and we get to a particular section we can attach active class
-        //      window.addEventListener("scroll", () => {
-               
-        //     if(sec.getBoundingClientRect().top < window.innerHeight){
-        //         console.log(` Section ${sec} =${sec.getBoundingClientRect().top}`)
-        //         console.log(`Window innerheight ${window.innerHeight}`)
-        //         sec.classList.add("active");
-              
-        //     } else {
-        //         sec.classList.remove("active");
-        //     }
-        // })
-           
-        // });
-       
-
-       
-    //  }
-    //  scrollSection();
